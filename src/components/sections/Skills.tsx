@@ -70,7 +70,8 @@ const skills = [
 ];
 
 export default function Skills() {
-  const [activeSkill, setActiveSkill] = useState(null);
+  const [activeSkill, setActiveSkill] = useState<number | null>(null);
+
 
   return (
     <section id="skills" className="py-20 relative overflow-hidden">
